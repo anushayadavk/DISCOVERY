@@ -1,0 +1,498 @@
+* {
+    box-sizing: border-box;
+    padding: o;
+    margin: 0;
+    
+    }
+    
+    .hh1 {
+        height: 100vh;
+        width: 100vw;
+        color: white ;
+        background-image: url(image/abountDLC_backgrowd.jpg);
+       background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    
+    .container {
+        font-size: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: white; 
+    }
+    
+    .aa1{
+        font-size: 25px;
+    }
+    .logo{
+        flex-grow: 0.3;
+    }
+
+    a[href$=".html"]{
+        color: white;
+    }
+    
+    .aa1:hover {
+        color: white;
+        text-decoration: underline;
+      }
+
+    h1{
+        color: white;
+        font-size: 3.5em;
+        margin-top: 5cm;
+        /* margin-left: 4cm; */
+        bottom: 50%;
+    }
+
+    .gallery{
+        /* border: 4px solid red; */
+        height: 30%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 18%;
+        margin-top: 5%;
+        position: relative;
+        /* left: 40%; */
+        bottom: 69%;
+        /* font:caption; */
+        color: white;
+        font-size: 60px;
+        font-style: normal;
+    }
+
+    #scroll {
+        width: 100%;
+        height: 7%;
+        font-size: 20px;
+        position: relative;
+        top: 30%;
+        color: white;
+        right: 25%;;
+    }
+
+
+    .section1 {
+        height: 50vh;
+        width: 100vw;
+      }
+      .content{
+        /* height: 100%;
+        width: 100%; */
+        padding-top: 7%;
+      }
+      
+      .container {
+        position: relative;
+        /* bottom: 75%; */
+        text-align: center;
+        font-size: 35px;
+        font-family: "messina-sans";
+        /* font-weight: 500; */
+        color: black;
+      }
+
+
+      .section2{
+          height: 150vh;
+          width: 100vw;
+          /* border: 5px solid red; */
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+      }
+
+      .sec2{
+          /* border: 5px solid green; */
+          width: 40%;
+          height: 60%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding-top: 15%;
+          padding-left: 10%;
+      }
+
+      .heading{
+          color: black;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          height: 10% ;
+          font-size: 35px;   
+      }
+
+      .p1{
+          padding-top: 5%;
+          
+      }
+
+      .p2{
+        padding-top: 5%;
+    }
+
+
+      .image{
+          /* border: 5px solid yellow; */
+          width: 45%;
+          height: 90%;
+          overflow: hidden;
+      }
+
+
+      .section3{
+          width: 100vw;
+          height: 150vh;
+          /* border: 10px solid purple */
+      }
+
+      .sec3{
+          /* border: 15px solid brown; */
+         width: 95% ; 
+         height: 90%;
+         overflow: hidden;
+         padding-left: 5%;
+         padding-top: 5%;
+      }
+
+    .section5{
+        width: 100vw;
+        height: 130vh;
+        /* overflow: hidden; */
+    }
+
+    .sec5{
+        overflow: hidden;
+        width: 100%;
+        height: 120%;
+    }
+
+    .section6{
+        width: 100vw;
+        height: 160vh;
+        /* border: 10px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 8%;
+    }
+
+    .sec6_img{
+        /* border: 10px solid black; */
+        width: 35%;
+        height: 70%;
+        overflow: hidden;
+    }
+
+    .sec6_part2{
+        /* border: 10px solid green; */
+        width: 40%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 11%;
+        overflow: hidden;
+    }
+
+    .sec6{
+        /* border: 5px solid black;  */
+        height: 35%;
+        width: 80%;
+        padding-bottom: 4%;
+    }
+
+    .container1{
+        font-size: 20px;
+    }
+    
+    .sec6_img_part2{
+        /* border: 10px solid blueviolet; */
+        overflow: hidden;
+        width:100%;
+        height: 48%;
+    }
+
+    .section7{
+        width: 100vw;
+        height: 140vh;
+        /* overflow: hidden; */
+        /* border: 10px solid black; */
+    }
+
+    .sec7{
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        /* border: 10px solid red; */
+        overflow: hidden;
+    }
+    
+
+    .section8{
+        width: 100vw;
+        height: 160vh;
+        /* border: 10px solid red; */
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding-top: 8%;
+    }
+
+    .sec8_img{
+        /* border: 10px solid black; */
+        width: 35%;
+        height: 70%;
+        overflow: hidden;
+    }
+
+    .sec8_part2{
+        /* border: 10px solid green; */
+        width: 40%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 11%;
+        overflow: hidden;
+    }
+
+    .sec8{
+        /* border: 5px solid black;  */
+        height: 30%;
+        width: 70%;
+        padding-bottom: 4%;
+    }
+    
+    .sec8_img_part2{
+        /* border: 10px solid blueviolet; */
+        overflow: hidden;
+        width:100%;
+        height: 48%;
+    }
+
+    .section9{
+        background-image: url(image/About_DLC_section9.jpg);
+       background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* border: 10px solid red; */
+        width: 100vw;
+        height: 90vh;
+    }
+
+    .sec9{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .se9_2{
+      font-size: 30px;
+      background-color: solid transparent;
+    }
+
+
+
+ 
+    .footer{
+        background-color: #161F1E;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 100vw;
+        height: 60vh;
+        justify-content: space-around;
+        /* padding-top: 8%; */
+    }
+    
+    .footer1 {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 5%;
+        /* border: 10px red purple; */
+    
+    }
+    
+    .img {
+        display: flex;
+    }
+    .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .footer_link {
+        display: flex;
+        justify-content: space-around;
+        /* border: 5px solid blue; */
+        width: 60%;
+    }
+    
+    .links {
+        margin-bottom: 50px;
+    }
+    
+    .l1{
+        margin-bottom: 10px;
+    }
+
+
+
+     .anim{ 
+    width: 100vw;
+    height: 110vh;
+     /* border: 10px solid red */
+    } 
+
+
+.explore{
+    margin-top: 5%;
+    /* border: 10px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    height: 15%;
+    margin-left: 4%;
+}
+
+.text{
+    /* border: 10px solid green ; */
+    width: 90%;
+    height: 80%;
+    font-size: 0.9cm;
+    
+    
+}
+
+/* .slider-button{
+    border: 10px solid yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+} */
+
+
+
+.slider {
+    background: white;
+    height: 80vh;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    position: absolute;
+    width: 100vw;
+    /* border: 10px solid brown; */
+    /* margin-top: 10%; */
+    /* animation: 50s linear infinite; */
+    display: flex;
+}
+
+.slide-track {
+    animation: scroll 10s linear infinite;
+    display: flex;
+    flex-direction: row ;
+    width: calc(400px * 10);
+    /* border: 10px solid yellowgreen; */
+    height: 99%;
+    overflow: hidden;
+    position: absolute;
+    
+}
+
+.slider .slide {
+    height: 100vh;
+    width: 400px;
+    border:6px solid white ;
+     /* margin: 0.5%;  */
+}
+
+
+.slide:nth-child(1){
+    background-image: url(image/ani_aboutdlc01.jpg);
+}
+
+.slide:nth-child(2){
+    background-image: url(iimage/ani_aboutdlc2.jpg);
+}
+
+.slide:nth-child(3){
+    background-image: url(image/ani_aboutdlc3.jpg);
+}
+
+.slide:nth-child(4) {
+    background-image: url(image/ani_aboutdlc4.jpg);
+}
+
+.slide:nth-child(5){
+    background-image: url(image/ani_aboutdlc5.jpg);
+}
+
+.slide:nth-child(6){
+    background-image: url(image/ani_aboutdlc6.jpg);
+}
+
+.slide:nth-child(7){
+    background-image: url(image/ani_aboutdlc7.jpg);
+}
+
+.slide:nth-child(8) {
+    background-image: url(image/ani_aboutdlc8.jpg);
+}
+
+.slide:nth-child(9){
+    background-image: url(image/ani_aboutdlc9.jpg);
+}
+
+.slide:nth-child(10){
+    background-image: url(image/ani_aboutdlc10.jpg);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-400px * 5 ));
+    }
+}
+
+
+.c-slide{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    /* border: 10px solid green; */
+    color: white;
+    justify-content: space-between;
+    margin-top: 10cm;
+    margin-left: 1cm;
+   
+}
+
+.c-slide__title{
+    font-size: 0.9cm;
+}
+
+.c-slide__text{
+    font-size: 0.5cm;
+}
+
+
+
+
+
+    
+
+
+
+
